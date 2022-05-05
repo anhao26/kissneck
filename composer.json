@@ -1,7 +1,7 @@
 {
-    "name": "sunel/eav",
-    "description": "Eav For Artisan.",
-    "keywords": ["eav", "laravel"],
+    "name": "anhao1226/kissneck",
+    "description": "this is test",
+    "type": "project",
     "license": "MIT",
     "require": {
         "illuminate/database": "^6.0|^7.0|^8.0",
@@ -13,22 +13,17 @@
         "mockery/mockery": "~1.0",
         "fzaninotto/faker": "~1.4"
     },
-    "authors": [
-        {
-            "name": "Sunel TR",
-            "email": "sunelbe@gmail.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "Eav\\": "src/"
+            "Anhao1226\\Kissneck\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Eav\\TestCase\\" : "tests/"
+    "authors": [
+        {
+            "name": "卸逸",
+            "email": "anhao1226@163.com"
         }
-    },
+    ],
     "extra": {
         "laravel": {
             "providers": [
