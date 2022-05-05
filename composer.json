@@ -1,7 +1,6 @@
 {
     "name": "anhao1226/kissneck",
     "description": "this is test",
-    "type": "project",
     "license": "MIT",
     "require": {
         "illuminate/database": "^6.0|^7.0|^8.0",
