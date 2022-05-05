@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav;
+namespace Kissneck;
 
 use ReflectionException;
 use Kissneck\Attribute\Concerns;

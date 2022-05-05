@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav;
+namespace Kissneck;
 
 use Illuminate\Database\Eloquent\Model;
 

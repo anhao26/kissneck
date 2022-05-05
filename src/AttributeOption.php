@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav;
+namespace Kissneck;
 
 use Kissneck\Attribute\Option\Collection;
 use Illuminate\Database\Eloquent\Model;

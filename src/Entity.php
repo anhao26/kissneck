@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav;
+namespace Kissneck;
 
 use DB;
 use Illuminate\Support\Str;

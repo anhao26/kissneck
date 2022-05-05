@@ -1,6 +1,6 @@
 <?php 
 
-namespace Eav;
+namespace Kissneck;
 
 use Kissneck\Traits\Attribute as AttributeTraits;
 use Illuminate\Support\Arr;

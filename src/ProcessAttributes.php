@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav;
+namespace Kissneck;
 
 use Kissneck\Database\Query\Builder;
 use Illuminate\Support\Collection;
