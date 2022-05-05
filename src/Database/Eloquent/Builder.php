@@ -1,5 +1,5 @@
 <?php
-namespace Eav\Database\Eloquent;
+namespace Kissneck\Database\Eloquent;
 
 use Illuminate\Database\Eloquent\Builder as EloquentBuilder;
 

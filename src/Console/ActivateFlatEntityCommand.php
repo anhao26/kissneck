@@ -1,8 +1,8 @@
 <?php
 
-namespace Eav\Console;
+namespace Kissneck\Console;
 
-use Eav\Entity;
+use Kissneck\Entity;
 use Illuminate\Console\Command;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 

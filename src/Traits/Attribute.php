@@ -1,10 +1,10 @@
 <?php
 
-namespace Eav\Traits;
+namespace Kissneck\Traits;
 
 use Cache;
 use Illuminate\Support\Arr;
-use Eav\Attribute\Collection;
+use Kissneck\Attribute\Collection;
 
 trait Attribute
 {

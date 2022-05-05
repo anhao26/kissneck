@@ -34,7 +34,7 @@ php artisan eav-dash:publish
 ```php
 'providers' => [
     ...
-    Eav\Api\ServiceProvider::class,
+    Kissneck\Api\ServiceProvider::class,
 ]
 ```
 :::

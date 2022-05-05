@@ -28,7 +28,7 @@ The above command will create entity model file for the given entity code.
 ```php
 namespace App;
 
-use Eav\Model;
+use Kissneck\Model;
 
 class Products extends Model
 {
@@ -43,6 +43,6 @@ To view the Entity model
 ```php
 $product = Products::find(1);
 
-# instance of Eav\Entity
+# instance of Kissneck\Entity
 
 $product->baseEntity();

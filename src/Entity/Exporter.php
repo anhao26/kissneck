@@ -1,8 +1,8 @@
 <?php
 
-namespace Eav\Entity;
+namespace Kissneck\Entity;
 
-use Eav\Entity;
+use Kissneck\Entity;
 use League\Csv\Writer;
 use Illuminate\Support\Collection;
 use Illuminate\Filesystem\Filesystem;
@@ -13,7 +13,7 @@ class Exporter
     /**
      * Entity model instacne.
      *
-     * @var \Eav\Entity
+     * @var \Kissneck\Entity
      */
     protected $entity;
 
@@ -55,7 +55,7 @@ class Exporter
     /**
      * Create updater instance.
      *
-     * @param \Eav\Entity  $entity
+     * @param \Kissneck\Entity  $entity
      * @param \Symfony\Component\Console\Command\Command $console
      *
      * @return void

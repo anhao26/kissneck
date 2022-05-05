@@ -2,13 +2,13 @@
 
 namespace Eav;
 
-use Eav\Traits\Attribute as AttributeTraits;
+use Kissneck\Traits\Attribute as AttributeTraits;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Str;
-use Eav\Database\Eloquent\Builder as EavEloquentBuilder;
+use Kissneck\Database\Eloquent\Builder as EavEloquentBuilder;
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Model as Eloquent;
-use Eav\Database\Query\Builder as EavQueryBuilder;
+use Kissneck\Database\Query\Builder as EavQueryBuilder;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 abstract class Model extends Eloquent
@@ -58,7 +58,7 @@ abstract class Model extends Eloquent
     /**
      * Get the Entity related to the model.
      *
-     * @return \Eav\Entity
+     * @return \Kissneck\Entity
      * @throws \Exception.
      */
     public function baseEntity()

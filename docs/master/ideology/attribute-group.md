@@ -33,7 +33,7 @@ public function attributes()
 To create a new group
 
 ```php
-Eav\AttributeGroup::create([
+Kissneck\AttributeGroup::create([
     'attribute_group_name' => 'Metadata',
     'attribute_set_id' => $attributeSet->attribute_set_id,
 ]);
@@ -46,7 +46,7 @@ A group should be attached to a Set.
 To retrieve the group related to the set.
 
 ```php
-$entity = Eav\Entity::findByCode('code');
+$entity = Kissneck\Entity::findByCode('code');
 
 $sets = $entity->attributeSet;
 
@@ -56,7 +56,7 @@ $groups = $sets->first()->attributeGroup;
 To retrieve the attributes related to the group.
 
 ```php
-$entity = Eav\Entity::findByCode('code');
+$entity = Kissneck\Entity::findByCode('code');
 
 $sets = $entity->attributeSet;
 

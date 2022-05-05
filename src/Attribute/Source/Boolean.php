@@ -1,8 +1,8 @@
 <?php
 
-namespace Eav\Attribute\Source;
+namespace Kissneck\Attribute\Source;
 
-use Eav\Attribute\Source;
+use Kissneck\Attribute\Source;
 
 class Boolean extends Source
 {

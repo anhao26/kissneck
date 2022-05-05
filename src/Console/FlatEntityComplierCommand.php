@@ -1,12 +1,12 @@
 <?php
 
-namespace Eav\Console;
+namespace Kissneck\Console;
 
-use Eav\Entity;
+use Kissneck\Entity;
 use Illuminate\Console\Command;
 use Illuminate\Support\Composer;
 use Illuminate\Filesystem\Filesystem;
-use Eav\Flat\Entity\Complier as EntityComplier;
+use Kissneck\Flat\Entity\Complier as EntityComplier;
 use Symfony\Component\Console\Input\InputOption;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
@@ -45,7 +45,7 @@ class FlatEntityComplierCommand extends Command
     /**
      * Create a new migration install command instance.
      *
-     * @param  \Eav\Migrations\AttributeMigrationCreator  $creator
+     * @param  \Kissneck\Migrations\AttributeMigrationCreator  $creator
      * @param  \Illuminate\Support\Composer  $composer
      * @return void
      */

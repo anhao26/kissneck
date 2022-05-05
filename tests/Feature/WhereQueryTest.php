@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\TestCase\Feature;
+namespace Kissneck\TestCase\Feature;
 
 class WhereQueryTest extends TestCase
 {

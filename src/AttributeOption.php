@@ -2,7 +2,7 @@
 
 namespace Eav;
 
-use Eav\Attribute\Option\Collection;
+use Kissneck\Attribute\Option\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 class AttributeOption extends Model

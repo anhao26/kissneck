@@ -1,10 +1,10 @@
 <?php
 
-namespace Eav\Console;
+namespace Kissneck\Console;
 
-use Eav\Entity;
+use Kissneck\Entity;
 use Illuminate\Console\Command;
-use Eav\Flat\Entity\Updater as EntityUpdater;
+use Kissneck\Flat\Entity\Updater as EntityUpdater;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 
 class FlatEntityUpdaterCommand extends Command

@@ -1,7 +1,7 @@
 <?php
 
 use Faker\Generator;
-use Eav\Entity;
+use Kissneck\Entity;
 
 /*
 |--------------------------------------------------------------------------

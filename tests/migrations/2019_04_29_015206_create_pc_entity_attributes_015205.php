@@ -1,7 +1,7 @@
 <?php
 
-use Eav\Attribute;
-use Eav\EntityAttribute;
+use Kissneck\Attribute;
+use Kissneck\EntityAttribute;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;

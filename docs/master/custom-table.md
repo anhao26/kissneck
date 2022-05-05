@@ -29,7 +29,7 @@ In case of Custom Table,
 In the Attribute Migration file you can find `backend_table`, it is empty. If you provide a table name, it will store the value in that table.
 
 ```php
-Eav\Attribute::add([
+Kissneck\Attribute::add([
     'attribute_code' => 'inventory',
     'entity_code' => 'product',
     'backend_class' => null,
@@ -45,7 +45,7 @@ Eav\Attribute::add([
     'required_validate_class' =>  null
 ]);
 
-Eav\EntityAttribute::map([
+Kissneck\EntityAttribute::map([
     'attribute_code' => 'inventory',
     'entity_code' => 'product',
     'attribute_set' => 'Default',

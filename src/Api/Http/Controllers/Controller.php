@@ -1,9 +1,9 @@
 <?php
 
-namespace Eav\Api\Http\Controllers;
+namespace Kissneck\Api\Http\Controllers;
 
-use Eav\Entity;
-use Eav\Attribute;
+use Kissneck\Entity;
+use Kissneck\Attribute;
 use Illuminate\Support\Arr;
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;

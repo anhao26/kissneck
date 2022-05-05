@@ -53,11 +53,11 @@ List of option that are used when 'select' is used as frontend type.
 ```php
 'selectSources' => [
     'database',
-    \Eav\Attribute\Source\Boolean::class,
+    \Kissneck\Attribute\Source\Boolean::class,
 ],
 ```
 
-You can add additional type ref `\Eav\Attribute\Source\Boolean::class`
+You can add additional type ref `\Kissneck\Attribute\Source\Boolean::class`
 
 
 ## Api Middleware

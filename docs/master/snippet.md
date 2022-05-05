@@ -7,7 +7,7 @@
 ```php
 $products = Products::select('*');
 
-$attribute = Eav\Attribute::findByCode('inventory', 'product');
+$attribute = Kissneck\Attribute::findByCode('inventory', 'product');
 $attribute->setEntity($products->baseEntity());
 
 // Joining the attribute to the query, by default it will use inner join.

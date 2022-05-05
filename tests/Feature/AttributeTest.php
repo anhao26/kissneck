@@ -1,16 +1,16 @@
 <?php
 
-namespace Eav\TestCase\Feature;
+namespace Kissneck\TestCase\Feature;
 
-use Eav\Entity;
-use Eav\Attribute;
-use Eav\AttributeSet;
-use Eav\AttributeOption;
+use Kissneck\Entity;
+use Kissneck\Attribute;
+use Kissneck\AttributeSet;
+use Kissneck\AttributeOption;
 
 class AttributeTest extends TestCase
 {
     /**
-     * @var Eav\Entity
+     * @var Kissneck\Entity
      */
     protected $entity;
 
@@ -208,7 +208,7 @@ class AttributeTest extends TestCase
 
         $value = 'HGKHDGEYTT'. rand();
 
-        $eloquent = new class() extends \Eav\Model {
+        $eloquent = new class() extends \Kissneck\Model {
             const ENTITY  = 'car';
             protected $table = 'cars';
         };
@@ -235,7 +235,7 @@ class AttributeTest extends TestCase
 
         $value = 'HGKHDGEYTT'. rand();
 
-        $eloquent = new class() extends \Eav\Model {
+        $eloquent = new class() extends \Kissneck\Model {
             const ENTITY  = 'car';
             protected $table = 'cars';
         };
@@ -273,7 +273,7 @@ class AttributeTest extends TestCase
 
         $value = 'HGKHDGEYTT'. rand();
 
-        $eloquent = new class() extends \Eav\Model {
+        $eloquent = new class() extends \Kissneck\Model {
             const ENTITY  = 'car';
             protected $table = 'cars';
         };
@@ -305,7 +305,7 @@ class AttributeTest extends TestCase
             'frontend_class' =>  null,
             'frontend_type' => 'select',
             'frontend_label' => ucwords(str_replace('_', ' ', 'search')),
-            'source_class' =>  \Eav\Attribute\Source\Boolean::class,
+            'source_class' =>  \Kissneck\Attribute\Source\Boolean::class,
             'default_value' => 0,
             'is_required' => 0,
             'required_validate_class' =>  null

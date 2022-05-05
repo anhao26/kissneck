@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\Attribute;
+namespace Kissneck\Attribute;
 
 use Validator;
 use Illuminate\Database\Eloquent\Collection as BaseCollection;

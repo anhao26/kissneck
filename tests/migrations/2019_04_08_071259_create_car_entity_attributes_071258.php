@@ -1,7 +1,7 @@
 <?php
 
-use Eav\Attribute;
-use Eav\EntityAttribute;
+use Kissneck\Attribute;
+use Kissneck\EntityAttribute;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
@@ -69,7 +69,7 @@ class CreateCarEntityAttributes071258 extends Migration
                 'frontend_class' =>  null,
                 'frontend_type' => 'select',
                 'frontend_label' => ucwords(str_replace('_', ' ', 'search')),
-                'source_class' =>  \Eav\Attribute\Source\Boolean::class,
+                'source_class' =>  \Kissneck\Attribute\Source\Boolean::class,
                 'default_value' => 0,
                 'is_filterable' => 1,
                 'is_required' => 0,

@@ -1,11 +1,11 @@
 <?php
 
-namespace Eav\Flat\Entity;
+namespace Kissneck\Flat\Entity;
 
-use Eav\Entity;
+use Kissneck\Entity;
 use Illuminate\Support\Str;
-use Eav\Migrations\SchemaParser;
-use Eav\Migrations\SyntaxBuilder;
+use Kissneck\Migrations\SchemaParser;
+use Kissneck\Migrations\SyntaxBuilder;
 use Illuminate\Support\Collection;
 use Illuminate\Filesystem\Filesystem;
 use Symfony\Component\Console\Command\Command;

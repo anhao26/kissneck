@@ -1,12 +1,12 @@
 <?php
 
-namespace Eav\TestCase\Feature;
+namespace Kissneck\TestCase\Feature;
 
-use Eav\Entity;
-use Eav\Attribute;
-use Eav\AttributeSet;
-use Eav\AttributeGroup;
-use Eav\EntityAttribute;
+use Kissneck\Entity;
+use Kissneck\Attribute;
+use Kissneck\AttributeSet;
+use Kissneck\AttributeGroup;
+use Kissneck\EntityAttribute;
 
 class AttributeSetTest extends TestCase
 {

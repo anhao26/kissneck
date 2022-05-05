@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\Attribute\Concerns;
+namespace Kissneck\Attribute\Concerns;
 
 use DB;
 

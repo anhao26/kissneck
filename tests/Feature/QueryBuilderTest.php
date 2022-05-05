@@ -1,9 +1,9 @@
 <?php
 
-namespace Eav\TestCase\Feature;
+namespace Kissneck\TestCase\Feature;
 
-use Eav\Entity;
-use Eav\Attribute;
+use Kissneck\Entity;
+use Kissneck\Attribute;
 
 class QueryBuilderTest extends TestCase
 {
@@ -13,7 +13,7 @@ class QueryBuilderTest extends TestCase
     {
         $this->expectException(\Exception::class);
 
-        $eloquent = new class() extends \Eav\Model {
+        $eloquent = new class() extends \Kissneck\Model {
         };
     }
 
@@ -173,7 +173,7 @@ class QueryBuilderTest extends TestCase
     {
         $cars = Cars::select('*');
 
-        $attribute = \Eav\Attribute::findByCode('sku', 'car');
+        $attribute = \Kissneck\Attribute::findByCode('sku', 'car');
         $attribute->setEntity($cars->baseEntity());
         $attribute->addAttributeJoin($cars->getQuery(), 'left');
 

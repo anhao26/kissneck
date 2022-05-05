@@ -1,10 +1,10 @@
 <?php
 
-namespace Eav\Console;
+namespace Kissneck\Console;
 
-use Eav\Entity;
+use Kissneck\Entity;
 use Illuminate\Console\Command;
-use Eav\Entity\Exporter as EntityExporter;
+use Kissneck\Entity\Exporter as EntityExporter;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Database\Eloquent\ModelNotFoundException;
 

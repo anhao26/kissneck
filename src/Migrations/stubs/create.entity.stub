@@ -1,10 +1,10 @@
 <?php
 
-use Eav\Entity;
-use Eav\Attribute;
-use Eav\AttributeSet;
-use Eav\AttributeGroup;
-use Eav\EntityAttribute;
+use Kissneck\Entity;
+use Kissneck\Attribute;
+use Kissneck\AttributeSet;
+use Kissneck\AttributeGroup;
+use Kissneck\EntityAttribute;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;

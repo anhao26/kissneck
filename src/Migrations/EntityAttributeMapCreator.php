@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\Migrations;
+namespace Kissneck\Migrations;
 
 use Closure;
 use Illuminate\Support\Str;

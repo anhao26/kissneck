@@ -222,7 +222,7 @@ class Entity extends Model
      * Find the entity by code.
      *
      * @param  string $code
-     * @return \Eav\Entity
+     * @return \Kissneck\Entity
      */
     public static function findByCode(string $code)
     {
@@ -241,7 +241,7 @@ class Entity extends Model
      * Find the entity by id.
      *
      * @param  int $id
-     * @return \Eav\Entity
+     * @return \Kissneck\Entity
      */
     public static function findById(int $id)
     {

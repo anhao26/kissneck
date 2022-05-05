@@ -2,7 +2,7 @@
 
 namespace DummyNamespace;
 
-use Eav\Model;
+use Kissneck\Model;
 
 class DummyClass extends Model
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace Eav\Console\Migrations;
+namespace Kissneck\Console\Migrations;
 
 use League\Csv\Exception as CsvException;
 use Illuminate\Console\Command;
 use Illuminate\Support\Composer;
-use Eav\Migrations\AttributeMigrationCreator;
+use Kissneck\Migrations\AttributeMigrationCreator;
 
 class AttributeMigrateMakeCommand extends Command
 {
@@ -43,7 +43,7 @@ class AttributeMigrateMakeCommand extends Command
     /**
      * Create a new migration install command instance.
      *
-     * @param  \Eav\Migrations\AttributeMigrationCreator  $creator
+     * @param  \Kissneck\Migrations\AttributeMigrationCreator  $creator
      * @param  \Illuminate\Support\Composer  $composer
      * @return void
      */

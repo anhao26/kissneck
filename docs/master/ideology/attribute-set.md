@@ -34,9 +34,9 @@ public function attributes()
 To create a new set
 
 ```php
-$entity = Eav\Entity::findByCode('code');
+$entity = Kissneck\Entity::findByCode('code');
 
-Eav\AttributeSet::create([
+Kissneck\AttributeSet::create([
     'attribute_set_name' => 'kids_clothing',
     'entity_id' => $entity->entity_id,
 ]);
@@ -47,7 +47,7 @@ Eav\AttributeSet::create([
 To retrive the set related to a entity.
 
 ```php
-$entity = Eav\Entity::findByCode('code');
+$entity = Kissneck\Entity::findByCode('code');
 
 $sets = $entity->attributeSet;
 

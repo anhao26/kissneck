@@ -9,7 +9,7 @@ We make it easy for developers to interact with attributes by defining simple mo
 
 ## Defining Models
 
-All EAV models extend `Eav\Model` class.
+All EAV models extend `Kissneck\Model` class.
 
 To create a model instance
 
@@ -30,7 +30,7 @@ Look at an example `Products` model.
 ```php
 namespace App;
 
-use Eav\Model;
+use Kissneck\Model;
 
 class Products extends Model
 {

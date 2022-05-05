@@ -1,5 +1,5 @@
 <?php
-namespace Eav\Attribute;
+namespace Kissneck\Attribute;
 
 use Illuminate\Contracts\Support\MessageProvider;
 use Illuminate\Validation\ValidationException as BaseValidationException;

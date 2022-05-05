@@ -1,10 +1,10 @@
 <?php 
-namespace Eav\Database\Query;
+namespace Kissneck\Database\Query;
 
 use Closure;
-use Eav\Entity;
-use Eav\ProcessAttributes;
-use Eav\Traits\Attribute;
+use Kissneck\Entity;
+use Kissneck\ProcessAttributes;
+use Kissneck\Traits\Attribute;
 use Illuminate\Support\Str;
 use Illuminate\Support\Arr;
 use Illuminate\Database\Query\Expression;
@@ -71,7 +71,7 @@ class Builder extends QueryBuilder
     /**
      * Holds Entity Instance.
      *
-     * @var \Eav\Entity
+     * @var \Kissneck\Entity
      */
     protected $baseEntity;
 
@@ -104,7 +104,7 @@ class Builder extends QueryBuilder
     /**
      * Get the Entity related to the model.
      *
-     * @return \Eav\Entity
+     * @return \Kissneck\Entity
      * @throws \Exception.
      */
     public function baseEntity()

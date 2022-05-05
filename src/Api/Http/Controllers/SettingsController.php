@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\Api\Http\Controllers;
+namespace Kissneck\Api\Http\Controllers;
 
 class SettingsController extends Controller
 {

@@ -1,19 +1,19 @@
 <?php
 
-namespace Eav\TestCase\Feature;
+namespace Kissneck\TestCase\Feature;
 
-use Eav\Entity;
-use Eav\AttributeSet;
+use Kissneck\Entity;
+use Kissneck\AttributeSet;
 
 class EntityTest extends TestCase
 {
     /**
-     * @var Eav\Entity
+     * @var Kissneck\Entity
      */
     protected $entity;
 
     /**
-     * @var Eav\Entity
+     * @var Kissneck\Entity
      */
     protected $entity_flat;
 
@@ -60,12 +60,12 @@ class EntityTest extends TestCase
     /** @test */
     public function it_can_detect_flat_table_name()
     {
-        $eloquent = new class() extends \Eav\Model {
+        $eloquent = new class() extends \Kissneck\Model {
             const ENTITY  = 'custom';
             protected $table = 'custom_table';
         };
         
-        $eloquent_1 = new class() extends \Eav\Model {
+        $eloquent_1 = new class() extends \Kissneck\Model {
             const ENTITY  = 'custom_1';
             protected $table = 'custom_table';
         };
@@ -77,7 +77,7 @@ class EntityTest extends TestCase
     /** @test */
     public function it_can_detect_key_name()
     {
-        $eloquent = new class() extends \Eav\Model {
+        $eloquent = new class() extends \Kissneck\Model {
             const ENTITY  = 'custom';
             protected $primaryKey = 'custom_id';
         };
@@ -91,7 +91,7 @@ class EntityTest extends TestCase
     /** @test */
     public function it_can_detect_entity_table_name()
     {
-        $eloquent = new class() extends \Eav\Model {
+        $eloquent = new class() extends \Kissneck\Model {
             const ENTITY  = 'custom';
             protected $table = 'custom_table';
         };

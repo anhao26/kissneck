@@ -1,9 +1,9 @@
 <?php
 
-namespace Eav\Attribute;
+namespace Kissneck\Attribute;
 
-use Eav\Attribute;
-use Eav\Contracts\Attribute\Backend as BackendContract;
+use Kissneck\Attribute;
+use Kissneck\Contracts\Attribute\Backend as BackendContract;
 
 abstract class Backend implements BackendContract
 {
@@ -17,7 +17,7 @@ abstract class Backend implements BackendContract
     /**
      * Reference to the attribute instance
      *
-     * @var Eav\Attribute
+     * @var Kissneck\Attribute
      */
     protected $attribute;
     
@@ -31,8 +31,8 @@ abstract class Backend implements BackendContract
     /**
      * Set attribute instance
      *
-     * @param Eav\Attribute
-     * @return Eav\Attribute\Backend
+     * @param Kissneck\Attribute
+     * @return Kissneck\Attribute\Backend
      */
     public function setAttribute(Attribute $attribute)
     {
@@ -43,7 +43,7 @@ abstract class Backend implements BackendContract
     /**
      * Get attribute instance
      *
-     * @return Eav\Attribute
+     * @return Kissneck\Attribute
      */
     public function attribute()
     {

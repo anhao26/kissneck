@@ -1,20 +1,20 @@
 <?php 
 
-namespace Eav\Providers;
+namespace Kissneck\Providers;
 
 use Validator;
-use Eav\Console\ModelMakeCommand;
-use Eav\Console\FlatEntityComplierCommand;
-use Eav\Console\FlatEntityUpdaterCommand;
-use Eav\Console\EntityExporterCommand;
-use Eav\Console\ActivateFlatEntityCommand;
+use Kissneck\Console\ModelMakeCommand;
+use Kissneck\Console\FlatEntityComplierCommand;
+use Kissneck\Console\FlatEntityUpdaterCommand;
+use Kissneck\Console\EntityExporterCommand;
+use Kissneck\Console\ActivateFlatEntityCommand;
 use Illuminate\Support\ServiceProvider;
-use Eav\Migrations\EntityMigrationCreator;
-use Eav\Migrations\AttributeMigrationCreator;
-use Eav\Migrations\EntityAttributeMapCreator;
-use Eav\Console\Migrations\EntityMigrateMakeCommand;
-use Eav\Console\Migrations\EntityAttributeMapCommand;
-use Eav\Console\Migrations\AttributeMigrateMakeCommand;
+use Kissneck\Migrations\EntityMigrationCreator;
+use Kissneck\Migrations\AttributeMigrationCreator;
+use Kissneck\Migrations\EntityAttributeMapCreator;
+use Kissneck\Console\Migrations\EntityMigrateMakeCommand;
+use Kissneck\Console\Migrations\EntityAttributeMapCommand;
+use Kissneck\Console\Migrations\AttributeMigrateMakeCommand;
 
 class LaravelServiceProvider extends ServiceProvider
 {

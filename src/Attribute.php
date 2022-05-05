@@ -3,8 +3,8 @@
 namespace Eav;
 
 use ReflectionException;
-use Eav\Attribute\Concerns;
-use Eav\Attribute\Collection;
+use Kissneck\Attribute\Concerns;
+use Kissneck\Attribute\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 class Attribute extends Model
@@ -37,28 +37,28 @@ class Attribute extends Model
     /**
      * Entity instance
      *
-     * @var Eav\Entity
+     * @var Kissneck\Entity
      */
     protected $entity;
 
     /**
      * Backend instance
      *
-     * @var Eav\Attribute\Backend
+     * @var Kissneck\Attribute\Backend
      */
     protected $backend;
 
     /**
      * Frontend instance
      *
-     * @var Eav\Attribute\Frontend
+     * @var Kissneck\Attribute\Frontend
      */
     protected $frontend;
 
     /**
      * Source instance
      *
-     * @var Eav\Attribute\Source
+     * @var Kissneck\Attribute\Source
      */
     protected $source;
 
@@ -125,7 +125,7 @@ class Attribute extends Model
     /**
      * Set attribute entity instance
      *
-     * @param Eav\Entity $entity
+     * @param Kissneck\Entity $entity
      * @return $this
      */
     public function setEntity(Entity $entity)
@@ -145,7 +145,7 @@ class Attribute extends Model
     /**
      * Retrieve entity instance
      *
-     * @return Eav\Entity
+     * @return Kissneck\Entity
      */
     public function getEntity()
     {
@@ -267,7 +267,7 @@ class Attribute extends Model
      * Create a new attribute.
      *
      * @param array $data
-     * @return \Eav\Attribute
+     * @return \Kissneck\Attribute
      */
     public static function add(array $data)
     {
@@ -369,7 +369,7 @@ class Attribute extends Model
     /**
      * Retrieve backend instance
      *
-     * @return Eav\Attribute\Backend
+     * @return Kissneck\Attribute\Backend
      */
     public function getBackend()
     {
@@ -400,7 +400,7 @@ class Attribute extends Model
     /**
      * Retrieve frontend instance
      *
-     * @return Eav\Attribute\Frontend
+     * @return Kissneck\Attribute\Frontend
      */
     public function getFrontend()
     {
@@ -423,7 +423,7 @@ class Attribute extends Model
     /**
      * Retrieve source instance
      *
-     * @return Eav\Attribute\Source
+     * @return Kissneck\Attribute\Source
      */
     public function getSource()
     {
@@ -494,7 +494,7 @@ class Attribute extends Model
      *
      * @param  string $code
      * @param  string $entityCode
-     * @return \Eav\Attribute
+     * @return \Kissneck\Attribute
      */
     public static function findByCode(string $code, string $entityCode)
     {

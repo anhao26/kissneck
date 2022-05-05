@@ -55,7 +55,7 @@ return [
 
     'selectSources' => [
         'database',
-        \Eav\Attribute\Source\Boolean::class,
+        \Kissneck\Attribute\Source\Boolean::class,
     ],
 
     /*

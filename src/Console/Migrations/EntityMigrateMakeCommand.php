@@ -1,10 +1,10 @@
 <?php
 
-namespace Eav\Console\Migrations;
+namespace Kissneck\Console\Migrations;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Composer;
-use Eav\Migrations\EntityMigrationCreator;
+use Kissneck\Migrations\EntityMigrationCreator;
 
 class EntityMigrateMakeCommand extends Command
 {

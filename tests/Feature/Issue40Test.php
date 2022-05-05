@@ -1,10 +1,10 @@
 <?php
 
-namespace Eav\TestCase\Feature;
+namespace Kissneck\TestCase\Feature;
 
-use Eav\Entity;
+use Kissneck\Entity;
 
-class Tesla2 extends \Eav\Model
+class Tesla2 extends \Kissneck\Model
 {
     const ENTITY  = 'car';
 

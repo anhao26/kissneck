@@ -1,13 +1,13 @@
 <?php
 
-namespace Eav\TestCase\Feature;
+namespace Kissneck\TestCase\Feature;
 
-use Eav\Attribute;
+use Kissneck\Attribute;
 use Tests\TestCase as Testbench;
 use Illuminate\Database\Eloquent\Factory as ModelFactory;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
-class Cars extends \Eav\Model
+class Cars extends \Kissneck\Model
 {
     const ENTITY  = 'car';
 

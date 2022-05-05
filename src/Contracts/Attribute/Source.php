@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\Contracts\Attribute;
+namespace Kissneck\Contracts\Attribute;
 
 interface Source
 {

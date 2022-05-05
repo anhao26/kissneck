@@ -1,24 +1,24 @@
 <?php
 
-namespace Eav\Attribute;
+namespace Kissneck\Attribute;
 
-use Eav\Attribute;
-use Eav\Contracts\Attribute\Frontend as FrontendContract;
+use Kissneck\Attribute;
+use Kissneck\Contracts\Attribute\Frontend as FrontendContract;
 
 class Frontend implements FrontendContract
 {
     /**
      * Reference to the attribute instance
      *
-     * @var Eav\Attribute
+     * @var Kissneck\Attribute
      */
     protected $attribute;
     
     /**
      * Set attribute instance
      *
-     * @param Eav\Attribute
-     * @return Eav\Attribute\Backend
+     * @param Kissneck\Attribute
+     * @return Kissneck\Attribute\Backend
      */
     public function setAttribute(Attribute $attribute)
     {
@@ -29,7 +29,7 @@ class Frontend implements FrontendContract
     /**
      * Get attribute instance
      *
-     * @return Eav\Attribute
+     * @return Kissneck\Attribute
      */
     public function attribute()
     {

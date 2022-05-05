@@ -1,8 +1,8 @@
 <?php
 
 use Faker\Generator;
-use Eav\AttributeSet;
-use Eav\AttributeGroup;
+use Kissneck\AttributeSet;
+use Kissneck\AttributeGroup;
 
 /*
 |--------------------------------------------------------------------------

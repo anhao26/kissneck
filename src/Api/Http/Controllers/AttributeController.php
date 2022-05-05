@@ -1,11 +1,11 @@
 <?php
 
-namespace Eav\Api\Http\Controllers;
+namespace Kissneck\Api\Http\Controllers;
 
-use Eav\Entity;
-use Eav\Attribute as AttributeModel;
-use Eav\Api\Http\Resources\Attribute;
-use Eav\Api\Http\Resources\AttributeCollection;
+use Kissneck\Entity;
+use Kissneck\Attribute as AttributeModel;
+use Kissneck\Api\Http\Resources\Attribute;
+use Kissneck\Api\Http\Resources\AttributeCollection;
 use ApiHelper\Http\Resources\Error;
 use Illuminate\Support\Arr;
 use Illuminate\Http\Request;

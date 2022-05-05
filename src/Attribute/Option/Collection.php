@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\Attribute\Option;
+namespace Kissneck\Attribute\Option;
 
 use Illuminate\Support\Arr;
 use Illuminate\Database\Eloquent\Collection as BaseCollection;

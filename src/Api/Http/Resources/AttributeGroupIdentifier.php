@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\Api\Http\Resources;
+namespace Kissneck\Api\Http\Resources;
 
 use ApiHelper\Http\Resources\Json\Resource;
 

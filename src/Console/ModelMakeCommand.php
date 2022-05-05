@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\Console;
+namespace Kissneck\Console;
 
 use Illuminate\Support\Str;
 use Illuminate\Console\GeneratorCommand;

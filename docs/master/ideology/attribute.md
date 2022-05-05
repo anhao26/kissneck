@@ -50,7 +50,7 @@ $ php artisan eav:make:attribute product -S storage/attribute.csv
 Both the options will also map it to the given entity. If you check the migration file it will have code that is similar to the code given below.
 
 ```php
-Eav\Attribute::add([
+Kissneck\Attribute::add([
     'attribute_code' => 'status',
     'entity_code' => 'product',
     'backend_class' => null,
@@ -59,7 +59,7 @@ Eav\Attribute::add([
     'frontend_class' =>  null,
     'frontend_type' => 'select',
     'frontend_label' => 'Status',
-    'source_class' =>  Eav\Attribute\Source\Boolean::class,
+    'source_class' =>  Kissneck\Attribute\Source\Boolean::class,
     'default_value' => 0,
     'is_required' => 0,
     'is_filterable' => 0,
@@ -67,7 +67,7 @@ Eav\Attribute::add([
     'required_validate_class' =>  null
 ]);
 
-Eav\EntityAttribute::map([
+Kissneck\EntityAttribute::map([
     'attribute_code' => 'status',
     'entity_code' => 'product',
     'attribute_set' => 'Default',
@@ -75,7 +75,7 @@ Eav\EntityAttribute::map([
 ]);
 ```
 
-The `Eav\Attribute::add` add's the attribute to the system and `Eav\EntityAttribute::map` will map the attribute to the entity and also assign to a [set](attribute-set.html) and [group](attribute-group.html).
+The `Kissneck\Attribute::add` add's the attribute to the system and `Kissneck\EntityAttribute::map` will map the attribute to the entity and also assign to a [set](attribute-set.html) and [group](attribute-group.html).
 
 
 | Field | Description |
@@ -100,7 +100,7 @@ The `Eav\Attribute::add` add's the attribute to the system and `Eav\EntityAttrib
 To retrieve the attributes related to a entity.
 
 ```php
-$entity = \Eav\Entity::findByCode('code');
+$entity = \Kissneck\Entity::findByCode('code');
 
 $attributes = $entity->attributes;
 ```
@@ -108,5 +108,5 @@ $attributes = $entity->attributes;
 To retrive single attribute 
 
 ```php
-$sizeAttribute =  Eav\Attribute::findByCode('size', 'product')
+$sizeAttribute =  Kissneck\Attribute::findByCode('size', 'product')
 ```

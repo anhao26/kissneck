@@ -1,15 +1,15 @@
 <?php
 
-namespace Eav\Attribute;
+namespace Kissneck\Attribute;
 
-use Eav\Contracts\Attribute\Source as SourceContract;
+use Kissneck\Contracts\Attribute\Source as SourceContract;
 
 abstract class Source implements SourceContract
 {
     /**
      * Reference to the attribute instance
      *
-     * @var Eav\Attribute
+     * @var Kissneck\Attribute
      */
     protected $attribute;
     
@@ -23,8 +23,8 @@ abstract class Source implements SourceContract
     /**
      * Set attribute instance
      *
-     * @param Eav\Attribute
-     * @return Eav\Attribute\Backend
+     * @param Kissneck\Attribute
+     * @return Kissneck\Attribute\Backend
      */
     public function setAttribute($attribute)
     {
@@ -35,7 +35,7 @@ abstract class Source implements SourceContract
     /**
      * Get attribute instance
      *
-     * @return Eav\Attribute\Backend
+     * @return Kissneck\Attribute\Backend
      */
     public function getAttribute()
     {

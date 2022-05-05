@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\Api;
+namespace Kissneck\Api;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as IlluminateServiceProvider;
@@ -14,7 +14,7 @@ class ServiceProvider extends IlluminateServiceProvider
      *
      * @var string
      */
-    protected $namespace = 'Eav\Api\Http\Controllers';
+    protected $namespace = 'Kissneck\Api\Http\Controllers';
 
     /**
      * Bootstrap any application services.

@@ -1,6 +1,6 @@
 <?php
 
-namespace Eav\Attribute\Relations;
+namespace Kissneck\Attribute\Relations;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\HasManyThrough as Relation;

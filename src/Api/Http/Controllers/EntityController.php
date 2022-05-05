@@ -1,10 +1,10 @@
 <?php
 
-namespace Eav\Api\Http\Controllers;
+namespace Kissneck\Api\Http\Controllers;
 
-use Eav\Entity;
-use Eav\Api\Http\Resources\Entity as EntityResource;
-use Eav\Api\Http\Resources\EntityCollection;
+use Kissneck\Entity;
+use Kissneck\Api\Http\Resources\Entity as EntityResource;
+use Kissneck\Api\Http\Resources\EntityCollection;
 use ApiHelper\Http\Resources\Error;
 use Illuminate\Http\Request;
 use Illuminate\Database\Eloquent\ModelNotFoundException;

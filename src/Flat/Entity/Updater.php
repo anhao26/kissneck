@@ -1,8 +1,8 @@
 <?php
 
-namespace Eav\Flat\Entity;
+namespace Kissneck\Flat\Entity;
 
-use Eav\Entity;
+use Kissneck\Entity;
 use Illuminate\Support\Collection;
 use Symfony\Component\Console\Command\Command;
 
@@ -11,7 +11,7 @@ class Updater
     /**
      * Entity model instacne.
      *
-     * @var \Eav\Entity
+     * @var \Kissneck\Entity
      */
     protected $entity;
 
@@ -25,7 +25,7 @@ class Updater
     /**
      * Create updater instance.
      *
-     * @param \Eav\Entity  $entity
+     * @param \Kissneck\Entity  $entity
      * @param \Symfony\Component\Console\Command\Command $console
      *
      * @return void
